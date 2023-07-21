@@ -23,10 +23,20 @@ public class Main {
 //++num3;
 //        System.out.println("Output:"+ (num3));
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter your First Name and Last Name: ");
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Please enter your First Name and Last Name: ");
+//
+//        String nameSurname = scanner.nextLine();
+//        System.out.println(nameSurname);
 
-        String nameSurname = scanner.nextLine();
-        System.out.println(nameSurname);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please Number 1: ");
+
+        int number1 = scanner.nextInt();
+        System.out.println("Please Number 2: ");
+
+        int number2 = scanner.nextInt();
+        int result = number1 + number2;
+        System.out.println("sum:"+result);
     }
 }
